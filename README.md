@@ -53,7 +53,7 @@ func Palindromo(string)(bool) {
 }
 ```
 
-3. Escribir una función que evalúe si una cadena de paréntesis, corchetes y llaves está bien balanceada y devuelve `true` si está bien balanceada y `false` si está mal balanceada. Por ejemplo: `[()]{}{[()()]()}` debe devolver `true`, mientras que `[(])` debe devolver `false`. Analizar el orden.
+3. Escribir una función que evalúe si una cadena de paréntesis, corchetes y llaves está bien balanceada y devuelve `true` si está bien balanceada y `false` si está mal balanceada. Por ejemplo: `[({)]}{[()()]()}` debe devolver `true`, mientras que `[(])` debe devolver `false`. Analizar el orden.
 
 ```go
 func Balanceada(string)(bool) {
